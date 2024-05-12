@@ -1,0 +1,4 @@
+(dirs packages)
+
+(documentation
+ (package universal-json))

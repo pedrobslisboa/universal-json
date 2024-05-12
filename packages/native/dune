@@ -1,0 +1,9 @@
+(include_subdirs unqualified)
+
+(library
+ (name native)
+ (public_name universal-json.native)
+ (modules :standard)
+ (wrapped false))
+
+(copy_files# "../*.ml")
