@@ -23,6 +23,7 @@
  (depends
   (ocaml
    (>= 5.0.0))
+  (yojson (>= 2.1.2))
   ;; Test dependencies
   (alcotest :with-test)
   (alcotest-lwt :with-test)

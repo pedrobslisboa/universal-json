@@ -3,6 +3,7 @@
 (library
  (name native)
  (public_name universal-json.native)
+ (libraries yojson)
  (modules :standard)
  (wrapped false))
 
