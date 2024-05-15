@@ -1,7 +1,11 @@
+(include_subdirs unqualified)
+
 (library
  (name js)
  (public_name universal-json.js)
  (modes melange)
  (wrapped false))
 
-(copy_files# "../native/*.ml")
+(copy_files# "../native/lib/*.ml")
+
+(copy_files# "../native/vendor/*.ml")
