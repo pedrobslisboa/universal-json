@@ -9,11 +9,10 @@ bug-reports: "https://github.com/pedrobslisboa/universal-json/issues"
 depends: [
   "dune" {>= "3.8"}
   "ocaml" {>= "5.0.0"}
+  "yojson" {>= "2.1.2"}
   "alcotest" {with-test}
   "alcotest-lwt" {with-test}
   "fmt" {with-test}
-  "camlp-streams" {with-test}
-  "stream_camlp_streams" {with-test}
   "ocamlformat" {= "0.26.1" & with-test}
   "melange-testing-library" {with-test}
   "melange-jest" {with-test}
@@ -35,9 +34,3 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/pedrobslisboa/universal-json.git"
-pin-depends: [
-  ["quickjs.0.1.1" "git+https://github.com/ml-in-barcelona/quickjs.ml#0.1.1"]
-  ["reason-react.0.14.0" "git+https://github.com/reasonml/reason-react#0.14.0"]
-  ["reason-react-ppx.0.14.0" "git+https://github.com/reasonml/reason-react#0.14.0"]
-  ["server-reason-react.0.2.0" "git+https://github.com/ml-in-barcelona/server-reason-react#0.2.0"]
-]

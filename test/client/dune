@@ -1,0 +1,4 @@
+(melange.emit
+ (target test)
+ (alias test)
+ (libraries melange-jest.jest universal-json.js))
