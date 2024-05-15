@@ -1,4 +1,4 @@
-(dirs packages)
+(dirs packages test)
 
 (documentation
  (package universal-json))

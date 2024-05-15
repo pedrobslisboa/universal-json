@@ -1,0 +1,4 @@
+(test
+ (name test)
+ (modules :standard)
+ (libraries alcotest universal-json.native yojson))
