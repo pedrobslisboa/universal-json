@@ -27,8 +27,6 @@
   (alcotest :with-test)
   (alcotest-lwt :with-test)
   (fmt :with-test)
-  (camlp-streams :with-test)
-  (stream_camlp_streams :with-test)
   ;; Dev dependencies
   (ocamlformat
    (and

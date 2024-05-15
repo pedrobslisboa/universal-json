@@ -1,6 +1,0 @@
-pin-depends: [
-  ["quickjs.0.1.1" "git+https://github.com/ml-in-barcelona/quickjs.ml#0.1.1"]
-  ["reason-react.0.14.0" "git+https://github.com/reasonml/reason-react#0.14.0"]
-  ["reason-react-ppx.0.14.0" "git+https://github.com/reasonml/reason-react#0.14.0"]
-  ["server-reason-react.0.2.0" "git+https://github.com/ml-in-barcelona/server-reason-react#0.2.0"]
-]
